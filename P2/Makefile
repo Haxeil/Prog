@@ -18,7 +18,6 @@ bin/testRectangle: testRectangle.o Rectangle.o Shape.o Point2D.o
 bin/testSquare: testSquare.o Rectangle.o Square.o Shape.o Point2D.o
 	g++ -c testSquare.cpp
 	mkdir -p bin
-
 	g++ -o bin/testSquare testRectangle.o Rectangle.o Square.o Shape.o Point2D.o
 
 

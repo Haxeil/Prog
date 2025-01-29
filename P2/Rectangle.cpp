@@ -89,7 +89,7 @@ void Rectangle::translate(double incX, double incY) {
     }
 }
 
-void Rectangle::print() {
+void Rectangle::print() const {
     std::cout << "[Rectangle: color = " << color;
     for (int i = 0; i < N_VERTICES; i++) {
         std::cout << "; v" << i << " = (" << vs[i].x << "," << vs[i].x << ")";

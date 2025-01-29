@@ -28,7 +28,7 @@ void Square::set_vertices(Point2D* vertices) {
     Rectangle::set_vertices(vertices);
 }
 
-void Square::print() {
+void Square::print()const {
     std::cout << "[Square: ";
     Rectangle::print();
     std::cout << "]" << std::endl;
